@@ -2,7 +2,7 @@
 
 Today's word usage of energy is increasing rapidly. Due to more usage of energy in some parts of the world, we are facing a lack of energy and it leads to environmental pollution. In some of the places, we are facing outrageous energy consumption in home appliances, so our main goal in this project is to analyse what the factors are affecting the increasing energy consumption of home appliances, how we can reduce the energy consumption of home appliances and predict energy consumption of appliances by using regression models.
 
-This project will use Python libraries, matplotlib, and Seaborn to examine the Telecom dataset through visualizations and graphs.
+This project will use Python libraries,sklearn, matplotlib, and Seaborn and SHAP to examine the Telecom dataset through visualizations and graphs.
 
 📖 Abstract: Prediction of the energy consumed by household appliances is a challenging research topic owing to a transition toward the Internet of Everything. In this study, the energy consumptions of appliances were predicted using a ML model based method, wherein the linear, lasso, ridge, decision tree, random forest, gradient boosting, xgb, adaboost and lgbm regression algorithms were employed. The two objectives of the present study were the maximization of the prediction performance of the algorithms and minimization of the number of selected features. The proposed method was tested on the appliances energy prediction dataset which was downloaded from a public dataset from Reliable Prognosis.
 
@@ -51,9 +51,22 @@ The only drawback of this dataset was that it was collected from one single hous
 Here are our suggestion :
 
 Upgrading network to improve services for long duration users.
-Improving Pricing Strategies.
-Optimizing and Updating International Call Rates.
-Implmenting a better network infrastructure in New Jersey,Texas and Maryland Areas where there is more Churn Rate.
-Improvement in the customer service can be done to reduce the number of calls which cause the churn
-Decreasing the prices as the talk-time increases can be an effective way to reduce the churn.
+1. Improving Pricing Strategies.
+2. Optimizing and Updating International Call Rates.
+3. Implmenting a better network infrastructure in New Jersey,Texas and Maryland Areas where there is more Churn Rate.
+4. Improvement in the customer service can be done to reduce the number of calls which cause the churn
+4. Decreasing the prices as the talk-time increases can be an effective way to reduce the churn.
+
+
+
+
+Improvemente points:
+1. Definitely, we have a scope of improvement here, specially in the feature engineering,
+
+2. Data we have in regualr interval of time we can implement time series concept on the data and analyse how the accuracy is varying,
+
+3. Available data is only for 1 house, we learn important information if we analyse several houses,
+
+4. Features like House geometry, number of people residing at house over time may give few more insights,
+5. Positioning and quality of sensors can be analysed for better data capturing.
 
