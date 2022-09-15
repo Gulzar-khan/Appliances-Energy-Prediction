@@ -48,6 +48,8 @@ Starting with loading the data so far we have done EDA , null values treatment, 
 The Random Forest Regressor was the best model when compared with rest all models for this data set. For all the models This regressor worked the best because it prevents the data from overfitting and plus it predicted very well based on all the features which is important. Few features were not useful for some models but to create a common platform they were tested for all features.
 The only drawback of this dataset was that it was collected from one single house and that’s why we can’t expand for future scope.
 
+Result- Best model- Random Forest Regressor with 0.70 r2_score.
+
 Here are our suggestion :
 
 Upgrading network to improve services for long duration users.
