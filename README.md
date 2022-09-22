@@ -1,13 +1,15 @@
-#Capstone-project-Supervised_machinelearning-on-Appliance-Energy-Prediction
+# **Appliance-Energy-Prediction**
 
+## **Introduction**
 Today's word usage of energy is increasing rapidly. Due to more usage of energy in some parts of the world, we are facing a lack of energy and it leads to environmental pollution. In some of the places, we are facing outrageous energy consumption in home appliances, so our main goal in this project is to analyse what the factors are affecting the increasing energy consumption of home appliances, how we can reduce the energy consumption of home appliances and predict energy consumption of appliances by using regression models.
 
 This project will use Python libraries,sklearn, matplotlib, and Seaborn and SHAP to examine the Telecom dataset through visualizations and graphs.
 
-📖 Abstract: Prediction of the energy consumed by household appliances is a challenging research topic owing to a transition toward the Internet of Everything. In this study, the energy consumptions of appliances were predicted using a ML model based method, wherein the linear, lasso, ridge, decision tree, random forest, gradient boosting, xgb, adaboost and lgbm regression algorithms were employed. The two objectives of the present study were the maximization of the prediction performance of the algorithms and minimization of the number of selected features. The proposed method was tested on the appliances energy prediction dataset which was downloaded from a public dataset from Reliable Prognosis.
+## **📖 Abstract:** 
+Prediction of the energy consumed by household appliances is a challenging research topic owing to a transition toward the Internet of Everything. In this study, the energy consumptions of appliances were predicted using a ML model based method, wherein the linear, lasso, ridge, decision tree, random forest, gradient boosting, xgb, adaboost and lgbm regression algorithms were employed. The two objectives of the present study were the maximization of the prediction performance of the algorithms and minimization of the number of selected features. The proposed method was tested on the appliances energy prediction dataset which was downloaded from a public dataset from Reliable Prognosis.
 
 
-📖 Dataset information: Data Set
+## **📖 Dataset information:**
 Below are the info that is available in given dataset-
 •	lights - Energy use of light fixtures in the house
 •	T1 - Temperature in kitchen area 
@@ -39,11 +41,11 @@ Below are the info that is available in given dataset-
 •	Date - Date and time format 
 •	Appliances - Energy used by appliances (Target Feature)
 
-📖 Problem Statement: 
+## **📖 Problem Statement:**
 
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes (parameters).
 
-📖 Approaches:
+## **📖 Approaches:**
 
 This project aims to predict the energy consumption of home appliances. With the advent of smart homes and the rising need for energy management, existing smart home systems can benefit from accurate prediction. If the energy usage can be predicted for every possible state of appliances, then device control can be optimized for energy savings as well. This is a case of Regression analysis which is part of the Supervised Learning problem. Appliance energy usage is the target variable while sensor data and weather data are the features.
 
@@ -62,7 +64,7 @@ We will divide this project into five steps for reproductive analysis.
 5. In the last step we will do hyper-parameter tuning for our topmost model and will see how our model behaves with different parameters. After getting best parameter for our top models we will go for feature importance method and draw the weightage of all features for our top model by using SHAP.
 
 
-📖 Tabel of content
+## **📖 Tabel of content**
 
 Step 1: Importing the Relevant Libraries
 
@@ -84,14 +86,15 @@ Step 9: Model explainability
 
 Step 10: Conclusion
 
-📖 Conclusion: That's it! We have reached the end of our project.
+## **📖 Conclusion:** 
+That's it! We have reached the end of our project.
 Starting with loading the data so far we have done EDA , null values treatment, dropping unnecessary columns, outliers handling, visualization, knowing the distribution, feature engineering, model making and then finalizing our best model with the help of hyperparameter tuning.
-The Random Forest Regressor was the best model when compared with rest all models for this data set. For all the models This regressor worked the best because it prevents the data from overfitting and plus it predicted very well based on all the features which is important. Few features were not useful for some models but to create a common platform they were tested for all features.
+The **Random Forest Regressor** was the best model when compared with rest all models for this data set. For all the models This regressor worked the best because it prevents the data from overfitting and plus it predicted very well based on all the features which is important. Few features were not useful for some models but to create a common platform they were tested for all features.
 The only drawback of this dataset was that it was collected from one single house and that’s why we can’t expand for future scope.
 
-Result- Best model- Random Forest Regressor with 0.70 r2_score.
+**Result**- Best model- Random Forest Regressor with 0.70 r2_score.
 
-Here are our suggestion :
+Here are our **suggestion** :
 
 Upgrading network to improve services for long duration users.
 1. Improving Pricing Strategies.
@@ -103,7 +106,7 @@ Upgrading network to improve services for long duration users.
 
 
 
-Improvemente points:
+### **Improvemente points:**
 1. Definitely, we have a scope of improvement here, specially in the feature engineering,
 
 2. Data we have in regualr interval of time we can implement time series concept on the data and analyse how the accuracy is varying,
