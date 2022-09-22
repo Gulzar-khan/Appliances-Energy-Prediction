@@ -116,3 +116,6 @@ Upgrading network to improve services for long duration users.
 4. Features like House geometry, number of people residing at house over time may give few more insights,
 5. Positioning and quality of sensors can be analysed for better data capturing.
 
+## **📖Execution Instructions**
+
+You can directly run the ipynb file on google colab.
