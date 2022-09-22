@@ -43,6 +43,47 @@ Below are the info that is available in given dataset-
 
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non-predictive attributes (parameters).
 
+📖 Approaches:
+
+This project aims to predict the energy consumption of home appliances. With the advent of smart homes and the rising need for energy management, existing smart home systems can benefit from accurate prediction. If the energy usage can be predicted for every possible state of appliances, then device control can be optimized for energy savings as well. This is a case of Regression analysis which is part of the Supervised Learning problem. Appliance energy usage is the target variable while sensor data and weather data are the features.
+
+we will draw some insights from data visualization after fetching the information from date column and analysis so that we could get the factors which will affect the output i.e. Energy consumption by appliances which is a major problem and one of the most important concerns for Green Economy.
+
+We will divide this project into five steps for reproductive analysis.
+
+1. As the first step we will be analyzing, cleaning the dataset which was provided and dropping some unnecessary column.
+
+2. In the second step we are handling outliers as well as finding the distribution type of all features and try to apply transformation on them.
+
+3. In the third step we will draw some insights after fetching the other details from date column like hourly, daily and monthly energy consumption. After that we will do Feature selection and Engineering. In FE we will be using VIF and correlation both method for Removing Multicollinearity and drop Some unnecessary column.
+
+4. In the Fourth step we will split our data into train and test set after that we used some scaling techniques on train set and after that we prepare our data for feeding to our models for training and analyze the results of all models by comparing with each other. We will select best model among these and proceed with them further.
+
+5. In the last step we will do hyper-parameter tuning for our topmost model and will see how our model behaves with different parameters. After getting best parameter for our top models we will go for feature importance method and draw the weightage of all features for our top model by using SHAP.
+
+
+📖 Tabel of content
+
+Step 1: Importing the Relevant Libraries
+
+Step 2: Data Inspection
+
+Step 3: Exploratory Data Analysis
+
+Step 4: Feature selection
+
+Step 5: Feature engineering
+
+Step 6: Train and Test split
+
+Step 7: Model training
+
+Step 8: Cross validation
+
+Step 9: Model explainability
+
+Step 10: Conclusion
+
 📖 Conclusion: That's it! We have reached the end of our project.
 Starting with loading the data so far we have done EDA , null values treatment, dropping unnecessary columns, outliers handling, visualization, knowing the distribution, feature engineering, model making and then finalizing our best model with the help of hyperparameter tuning.
 The Random Forest Regressor was the best model when compared with rest all models for this data set. For all the models This regressor worked the best because it prevents the data from overfitting and plus it predicted very well based on all the features which is important. Few features were not useful for some models but to create a common platform they were tested for all features.
