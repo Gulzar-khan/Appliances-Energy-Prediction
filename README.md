@@ -1,4 +1,8 @@
+
 # **Appliance-Energy-Prediction**
+
+- 📫 Find the related notebook directly- <a href="https://github.com/Gulzar-khan/Appliances-Energy-Prediction/blob/main/Appliance_Energy_Prediction_Team_colab.ipynb" target="_blank">Here</a> 
+
 
 ## **Introduction**
 Today's word usage of energy is increasing rapidly. Due to more usage of energy in some parts of the world, we are facing a lack of energy and it leads to environmental pollution. In some of the places, we are facing outrageous energy consumption in home appliances, so our main goal in this project is to analyse what the factors are affecting the increasing energy consumption of home appliances, how we can reduce the energy consumption of home appliances and predict energy consumption of appliances by using regression models.
