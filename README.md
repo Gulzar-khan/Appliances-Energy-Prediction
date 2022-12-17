@@ -1,7 +1,7 @@
 
 # **Appliance-Energy-Prediction**
 
-- 📫 Find the related notebook directly- <a href="https://github.com/Gulzar-khan/Appliances-Energy-Prediction/blob/main/Appliance_Energy_Prediction_Team_colab.ipynb" target="_blank">Here</a> 
+- 📫 Find the related notebook directly- <a href="https://github.com/Gulzar-khan/Appliances-Energy-Prediction/blob/main/Capstone_Project_Appliances_Energy_Prediction.ipynb" target="_blank">Here</a> 
 
 
 ## **Introduction**
