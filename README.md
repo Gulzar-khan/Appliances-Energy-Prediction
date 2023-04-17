@@ -101,11 +101,11 @@ The only drawback of this dataset was that it was collected from one single hous
 Here are our **suggestion** :
 
 Upgrading network to improve services for long duration users.
-1. Improving Pricing Strategies.
-2. Optimizing and Updating International Call Rates.
-3. Implmenting a better network infrastructure in New Jersey,Texas and Maryland Areas where there is more Churn Rate.
-4. Improvement in the customer service can be done to reduce the number of calls which cause the churn
-4. Decreasing the prices as the talk-time increases can be an effective way to reduce the churn.
+1. We can apply some transformation like log, exp, boxcox, reciprocal on skewed features.
+2. Treat outliers as missing data and do imputation on them.
+3. We can do discretisation on on some highly skewed data and check how it is performing.
+4. Model interpretation:
+4. We can also use shap value to interprete the predictions.
 
 
 
